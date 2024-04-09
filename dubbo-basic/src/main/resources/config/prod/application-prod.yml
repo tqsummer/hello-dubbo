@@ -9,7 +9,7 @@ logging:
 
 web:
   cookie:
-    domain: huajinsc.cn
+    domain: hello.cn
     openTokenKey: openToken
     openPhoneAuthTokenKey: openPhoneAuthToken
     openAccountAuthTokenKey: openAccountAuthToken
@@ -19,7 +19,7 @@ web:
     openTradeModeKey: openTradeMode
     openTopBarHiddenKey: openTopBarHidden
   url:
-    opWebUrl:  https://open.huajinsc.cn
+    opWebUrl:  https://open.hello.cn
     opWebAuthUrl:  ${web.url.opWebUrl}/auth
     opWebFrontUrl:  ${web.url.opWebUrl}/front
 agreement:
