@@ -9,7 +9,7 @@ logging:
 
 web:
   cookie:
-    domain: huajinsc.cn
+    domain: hello.cn
     openTokenKey: openToken
     openPhoneAuthTokenKey: openPhoneAuthToken
     openAccountAuthTokenKey: openAccountAuthToken
@@ -19,7 +19,7 @@ web:
     openTradeModeKey: openTradeMode
     openTopBarHiddenKey: openTopBarHidden
   url:
-    opWebUrl:  https://dev-open.huajinsc.cn
+    opWebUrl:  https://dev-open.hello.cn
     opWebAuthUrl:  ${web.url.opWebUrl}/auth
     opWebFrontUrl:  ${web.url.opWebUrl}/front
     openAccountUrl:  https://dev-openaccount.huajinsc.cn:16002/huajin-open-hvue/views/index.html?source=kfpt&op_tk_moduleName=open
